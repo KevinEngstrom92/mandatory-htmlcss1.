@@ -1,0 +1,51 @@
+html, body
+{
+  height: 100vh;
+  text-align: center;
+}
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+header
+{
+
+  width: 100%;
+  text-align: center;
+}
+
+
+li
+{
+  padding-top: 3px;
+  display: inline-block;
+padding-bottom: 20px;
+}
+
+a
+{
+  color: #1a2aaa;
+  text-decoration: none;
+padding-bottom: 3px;
+}
+a:hover
+{
+  color: #0c1452;
+}
+.active-page,
+.active-page:hover
+{
+  color: #2a3ede;
+  border-bottom: 2px solid black;
+}
+
+footer
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+}
